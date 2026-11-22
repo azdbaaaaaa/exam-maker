@@ -1,0 +1,3574 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "4.0.5",
+      "registry": "https://clawhub.ai",
+      "installedAt": 1795323752985,
+      "ownerHandle": "pskoett",
+      "artifact": {
+        "kind": "archive",
+        "sha256": "203f1e49bc28a2bd64688d3cfb7f599d04d70aa62c70e84457f1381fc4515bbc",
+        "integrity": "sha256-ID8eSbwoor1kaI08+39ZnQTXCqYscOhEV/E4H8RRW7w="
+      },
+      "skillFile": {
+        "path": "SKILL.md",
+        "sha256": "0a952df58c7e996577cd28b87825108bb2a807c696ca7840be61baecca5f65f2"
+      },
+      "fileTreeSha256": "sha256:009d100311b78e138003da35be8ed363adfa320d31197a2deee8b25bdcfb0890",
+      "verification": {
+        "schema": "clawhub.skill.verify.v1",
+        "ok": true,
+        "decision": "pass",
+        "reasons": [],
+        "card": {
+          "available": true,
+          "path": "skill-card.md",
+          "url": "https://wry-manatee-359.convex.site/api/v1/skills/self-improving-agent/card?ownerHandle=pskoett&version=4.0.5",
+          "sha256": "b3995cc252431226cd046121e9983a6bec663a28fe1b78a145c3cd18193c1f81",
+          "size": 2061,
+          "contentType": "text/markdown; charset=utf-8"
+        },
+        "artifact": {
+          "sourceFingerprint": "56c470c424ef07f071a3f415424124444c0f83acedd1eaee5a5b23c3c66e08c4",
+          "bundleFingerprints": [
+            "12900dceae2b35a7b802821bd3dc5b65b78b2cba3613fdfc2813b9ec9aee35b3"
+          ],
+          "files": [
+            {
+              "path": "CHANGELOG.md",
+              "size": 10924,
+              "sha256": "2719047a858388704ef3490f1c636fc7ffcc500defbd577a967d22622653ba63",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "SKILL.md",
+              "size": 26653,
+              "sha256": "0a952df58c7e996577cd28b87825108bb2a807c696ca7840be61baecca5f65f2",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "assets/FEATURE_REQUESTS.md",
+              "size": 1654,
+              "sha256": "9aaaa3cfd4147f41048d66554cea7c6bd7f240a2804508a8d134c67e2dbe2457",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "assets/ERRORS.md",
+              "size": 1819,
+              "sha256": "64a70d87c4864041e5ccfc0f1ced176dd29c6dd169f5104b4bc3835ef565bdc0",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "assets/SKILL-TEMPLATE.md",
+              "size": 5199,
+              "sha256": "0ee0abda9e3ea3707999e77ceff7e25f6c62a95d94b4ec7b08a9ef85c4188a26",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "assets/LEARNINGS.md",
+              "size": 3367,
+              "sha256": "168b0dc92c8a9e930b676afbb133a8832cffa2419300c531f663fa7837456d6a",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "scripts/extract-skill.sh",
+              "size": 5293,
+              "sha256": "d9af3d6f2cde0eeb3c0a85b898828656c1c6d9d51f61ba38f9801030424f5147",
+              "contentType": "text/x-sh"
+            },
+            {
+              "path": "hooks/openclaw/handler.test.js",
+              "size": 18581,
+              "sha256": "ab981048415f222b704f3e6b1ccd9c3e5db461f918dbae9852a47640213ca099",
+              "contentType": "text/javascript"
+            },
+            {
+              "path": "hooks/openclaw/handler.js",
+              "size": 19306,
+              "sha256": "a6fb3adc6a6fbd92518ac2e3795169f9952c71133720a42f3dbb7fbf5d6ea7c8",
+              "contentType": "text/javascript"
+            },
+            {
+              "path": "hooks/openclaw/HOOK.md",
+              "size": 4484,
+              "sha256": "11c578261283dc2fe557df6909265cb5208160e099c6f2dbc22caa803af880c1",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "hooks/openclaw/handler.ts",
+              "size": 20834,
+              "sha256": "aa956937cf403794731d5ea7c3be3ec17c09a0ebee1641bf738d707243dec444",
+              "contentType": "application/octet-stream"
+            },
+            {
+              "path": "references/uninstall.md",
+              "size": 4358,
+              "sha256": "ed4a0f812bc22c3b79e0ac7aee1b17aae0b19676f4d853216ea53144626891d4",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "references/examples.md",
+              "size": 14876,
+              "sha256": "6574b218d2c262a406a0201218a17ff26c89474f4e7196835d14c080d029dab4",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "references/openclaw-integration.md",
+              "size": 16884,
+              "sha256": "bcf7bf62b5f0a11ccf22feed4fde79abea8823faff4771d065837143768f18b2",
+              "contentType": "text/markdown"
+            },
+            {
+              "path": "references/maintenance-evals.md",
+              "size": 7812,
+              "sha256": "e21238c0c09661a7a6c3635e627fefe8f592224a6d7bd3587b22e1d4feb08ae4",
+              "contentType": "text/markdown"
+            }
+          ]
+        },
+        "provenance": {
+          "source": "unavailable",
+          "reason": "No server-resolved GitHub import provenance is stored for this version."
+        },
+        "security": {
+          "status": "clean",
+          "passed": true,
+          "rawStatus": "clean",
+          "verdict": "benign",
+          "confidence": "high",
+          "summary": "The skill’s local learning records, optional error-capture hook, and updates to future guidance are disclosed and consistent with its purpose.",
+          "model": "gpt-6.1-sol",
+          "checkedAt": 1792673836369,
+          "scannerReports": {
+            "aig": {
+              "version": "2.1.0",
+              "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/os/schemas/sarif-schema-2.1.0.json",
+              "runs": [
+                {
+                  "tool": {
+                    "driver": {
+                      "name": "aig-skill-scan",
+                      "version": "0.2.2",
+                      "informationUri": "https://github.com/Tencent/AI-Infra-Guard",
+                      "rules": [
+                        {
+                          "id": "T01",
+                          "name": "Skill Instruction Hijacking",
+                          "shortDescription": {
+                            "text": "Alters the agent's current session goals or safety constraints when the skill is loaded"
+                          }
+                        },
+                        {
+                          "id": "T02",
+                          "name": "Agent Memory Poisoning",
+                          "shortDescription": {
+                            "text": "Writes attacker-controlled rules into persistent memory so they continue to affect future sessions"
+                          }
+                        },
+                        {
+                          "id": "T03",
+                          "name": "Remote Payload Retrieval and Execution",
+                          "shortDescription": {
+                            "text": "Fetches code from an external URL, allowing the effective payload to change after skill review"
+                          }
+                        },
+                        {
+                          "id": "T04",
+                          "name": "Embedded Malicious Code",
+                          "shortDescription": {
+                            "text": "Ships malicious scripts inside the skill package and executes them locally when invoked"
+                          }
+                        },
+                        {
+                          "id": "T05",
+                          "name": "Unauthorized Access and Privilege Escalation",
+                          "shortDescription": {
+                            "text": "Breaks least-privilege boundaries by obtaining permissions beyond the task's legitimate needs"
+                          }
+                        },
+                        {
+                          "id": "T06",
+                          "name": "System Persistence",
+                          "shortDescription": {
+                            "text": "Installs cross-session backdoors, hooks, services, or scheduled tasks that survive the skill run"
+                          }
+                        },
+                        {
+                          "id": "T07",
+                          "name": "Tool Hijacking and Spoofing",
+                          "shortDescription": {
+                            "text": "Modifies, wraps, spoofs, or replaces tools so legitimate-looking calls execute attacker logic"
+                          }
+                        },
+                        {
+                          "id": "T08",
+                          "name": "Insecure Dependencies",
+                          "shortDescription": {
+                            "text": "Introduces malicious packages or components through dependency confusion, typosquatting, or unsafe sources"
+                          }
+                        },
+                        {
+                          "id": "T09",
+                          "name": "Insecure Skill Coding Practices",
+                          "shortDescription": {
+                            "text": "Exposes exploitable flaws such as hardcoded secrets, command injection, plaintext sensitive data, or unsafe temp files"
+                          }
+                        },
+                        {
+                          "id": "other",
+                          "name": "Other Risk",
+                          "shortDescription": {
+                            "text": "Security issues not covered by the T01-T09 classification"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "results": [],
+                  "properties": {
+                    "securityScore": 100,
+                    "primaryLanguage": "Markdown",
+                    "llm": "gpt-6.1-sol",
+                    "startTime": 1792673680.5428464,
+                    "endTime": 1792673722.5149229
+                  }
+                }
+              ]
+            },
+            "skillspector": {
+              "skill": {
+                "name": "self-improving-agent",
+                "source": "/tmp/clawhub-codex-scan-v572h4wv2bc4609pvsv5d5m0qd8gseex-d9h5cm/clawscan-skillspector-3407099603/artifact",
+                "scanned_at": "2026-10-22T12:54:38.939499+00:00"
+              },
+              "risk_assessment": {
+                "score": 100,
+                "severity": "CRITICAL",
+                "recommendation": "DO_NOT_INSTALL",
+                "max_issue_severity": "HIGH"
+              },
+              "components": [
+                {
+                  "path": "CHANGELOG.md",
+                  "type": "markdown",
+                  "lines": 238,
+                  "executable": false,
+                  "size_bytes": 10924,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "SKILL.md",
+                  "type": "markdown",
+                  "lines": 498,
+                  "executable": false,
+                  "size_bytes": 26653,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "assets/ERRORS.md",
+                  "type": "markdown",
+                  "lines": 57,
+                  "executable": false,
+                  "size_bytes": 1819,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "assets/FEATURE_REQUESTS.md",
+                  "type": "markdown",
+                  "lines": 50,
+                  "executable": false,
+                  "size_bytes": 1654,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "assets/LEARNINGS.md",
+                  "type": "markdown",
+                  "lines": 95,
+                  "executable": false,
+                  "size_bytes": 3367,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "assets/SKILL-TEMPLATE.md",
+                  "type": "markdown",
+                  "lines": 193,
+                  "executable": false,
+                  "size_bytes": 5199,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "hooks/openclaw/HOOK.md",
+                  "type": "markdown",
+                  "lines": 101,
+                  "executable": false,
+                  "size_bytes": 4484,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "hooks/openclaw/handler.js",
+                  "type": "javascript",
+                  "lines": 564,
+                  "executable": true,
+                  "size_bytes": 19306,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "hooks/openclaw/handler.test.js",
+                  "type": "javascript",
+                  "lines": 422,
+                  "executable": true,
+                  "size_bytes": 18581,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "hooks/openclaw/handler.ts",
+                  "type": "typescript",
+                  "lines": 601,
+                  "executable": true,
+                  "size_bytes": 20834,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "references/examples.md",
+                  "type": "markdown",
+                  "lines": 450,
+                  "executable": false,
+                  "size_bytes": 14876,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "references/maintenance-evals.md",
+                  "type": "markdown",
+                  "lines": 63,
+                  "executable": false,
+                  "size_bytes": 7812,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "references/openclaw-integration.md",
+                  "type": "markdown",
+                  "lines": 442,
+                  "executable": false,
+                  "size_bytes": 16884,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "references/uninstall.md",
+                  "type": "markdown",
+                  "lines": 87,
+                  "executable": false,
+                  "size_bytes": 4358,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                },
+                {
+                  "path": "scripts/extract-skill.sh",
+                  "type": "shell",
+                  "lines": 221,
+                  "executable": true,
+                  "size_bytes": 5293,
+                  "source_url": null,
+                  "source_identity": null,
+                  "source_digest": null
+                }
+              ],
+              "structured_summaries": [],
+              "issues": [
+                {
+                  "id": "TP4",
+                  "finding_id": "finding-e86e795f7776420582624848093ec7f9",
+                  "category": "MCP Tool Poisoning",
+                  "pattern": "Description-Behavior Mismatch",
+                  "severity": "HIGH",
+                  "confidence": 0.96,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 1,
+                    "end_line": null
+                  },
+                  "finding": "Description-behavior mismatch: declared purpose is 'Capture, maintain, review, and revalidate saved learnings, errors, and corrections.' but code also performs: Installation of an external skill package, which is not disclosed in the declared purpose..",
+                  "explanation": "The supplied code performs package installation rather than the described learning-management operations. Although the package name suggests related functionality, its contents are not supplied and cannot establish that behavior. Installation is the sole visible action, not a supporting step within an otherwise implemented learning workflow.",
+                  "remediation": "Update the skill description to accurately reflect all capabilities, or remove undeclared functionality from the implementation.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [
+                    "ASI02",
+                    "AML.T0080",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "code_path": "SKILL.md",
+                    "code_start_line": 58,
+                    "code_end_line": 58,
+                    "actual_behavior_summary": "Invokes the OpenClaw CLI to install the external skill package @pskoett/self-improving-agent.",
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.98
+                  },
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 1,
+                      "end_line": null
+                    }
+                  ]
+                },
+                {
+                  "id": "TP4",
+                  "finding_id": "finding-e8199c666fa54ee986630e2e284a940a",
+                  "category": "MCP Tool Poisoning",
+                  "pattern": "Description-Behavior Mismatch",
+                  "severity": "HIGH",
+                  "confidence": 0.96,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 1,
+                    "end_line": null
+                  },
+                  "finding": "Description-behavior mismatch: declared purpose is 'Record and maintain learnings, errors, and corrections, and review and revalidate saved guidance.' but code also performs: Retrieves external code from GitHub., Installs skill files into the local OpenClaw skills directory..",
+                  "explanation": "The supplied commands perform skill installation rather than capturing, maintaining, reviewing, or revalidating learnings. Downloading and installing an external skill is a materially different operation not disclosed in the description. The downloaded skill might implement the declared features, but its contents are not supplied and cannot be assumed. These commands do not themselves execute the downloaded code.",
+                  "remediation": "Update the skill description to accurately reflect all capabilities, or remove undeclared functionality from the implementation.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [
+                    "ASI02",
+                    "AML.T0080",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "code_path": "SKILL.md",
+                    "code_start_line": 70,
+                    "code_end_line": 71,
+                    "actual_behavior_summary": "Downloads a GitHub repository into /tmp and copies its self-improving-agent directory into ~/.openclaw/skills/self-improving-agent.",
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.96
+                  },
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 1,
+                      "end_line": null
+                    }
+                  ]
+                },
+                {
+                  "id": "TP4",
+                  "finding_id": "finding-0a4550af3405421cb69c1eabb4f6d007",
+                  "category": "MCP Tool Poisoning",
+                  "pattern": "Description-Behavior Mismatch",
+                  "severity": "HIGH",
+                  "confidence": 0.94,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 1,
+                    "end_line": null
+                  },
+                  "finding": "Description-behavior mismatch: declared purpose is 'Capture, maintain, review, and revalidate saved learnings, errors, corrections, and improved approaches.' but code also performs: Installation of an external skill package, which is not disclosed in the description..",
+                  "explanation": "The sole supplied command performs package installation rather than the declared learning-management behavior. Although the package name suggests a related purpose, its implementation is not supplied, so its behavior cannot be verified or attributed to this chunk. Installation is the entire observable action here, not merely a supporting step within an implemented learning workflow.",
+                  "remediation": "Update the skill description to accurately reflect all capabilities, or remove undeclared functionality from the implementation.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [
+                    "ASI02",
+                    "AML.T0080",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "code_path": "SKILL.md",
+                    "code_start_line": 64,
+                    "code_end_line": 64,
+                    "actual_behavior_summary": "Runs `clawhub install @pskoett/self-improving-agent` to install an external skill package. The supplied chunk contains no learning capture, maintenance, review, or revalidation logic.",
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.98
+                  },
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 1,
+                      "end_line": null
+                    }
+                  ]
+                },
+                {
+                  "id": "TP4",
+                  "finding_id": "finding-1743fee226054dabbb40f39e01bec15c",
+                  "category": "MCP Tool Poisoning",
+                  "pattern": "Description-Behavior Mismatch",
+                  "severity": "HIGH",
+                  "confidence": 0.86,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 1,
+                    "end_line": null
+                  },
+                  "finding": "Description-behavior mismatch: declared purpose is 'Capture, maintain, review, and revalidate saved learnings, errors, and corrections.' but code also performs: Deployment and replacement of hook code in a configured hook directory..",
+                  "explanation": "The chunk performs hook deployment rather than maintaining or reviewing saved guidance. Testing and rollback support that deployment, but the declared description does not disclose installing or replacing hooks. The hook's contents and effects are not shown, so no additional capabilities can be inferred.",
+                  "remediation": "Update the skill description to accurately reflect all capabilities, or remove undeclared functionality from the implementation.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [
+                    "ASI02",
+                    "AML.T0080",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "code_path": "references/openclaw-integration.md",
+                    "code_start_line": 141,
+                    "code_end_line": 154,
+                    "actual_behavior_summary": "Runs a candidate hook's Node.js tests, moves an existing hook directory into a staging backup, and replaces it with the candidate directory, attempting rollback if replacement fails.",
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.94
+                  },
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 1,
+                      "end_line": null
+                    }
+                  ]
+                },
+                {
+                  "id": "TP4",
+                  "finding_id": "finding-4be71ae55be0427cab92ef29a3949d8b",
+                  "category": "MCP Tool Poisoning",
+                  "pattern": "Description-Behavior Mismatch",
+                  "severity": "HIGH",
+                  "confidence": 0.85,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 1,
+                    "end_line": null
+                  },
+                  "finding": "Description-behavior mismatch: declared purpose is 'Capture, maintain, review, and revalidate saved learnings, errors, and corrections.' but code also performs: OpenClaw operational-status inspection, which is not described in the declared purpose..",
+                  "explanation": "The supplied command performs an operational status check rather than recording, retrieving, or validating saved guidance. Although the reference filename suggests integration documentation, the supplied chunk does not establish this check as a supporting step in the declared learning workflow. No data modification or exfiltration is evident.",
+                  "remediation": "Update the skill description to accurately reflect all capabilities, or remove undeclared functionality from the implementation.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [
+                    "ASI02",
+                    "AML.T0080",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "code_path": "references/openclaw-integration.md",
+                    "code_start_line": 410,
+                    "code_end_line": 410,
+                    "actual_behavior_summary": "Runs `openclaw status` to query OpenClaw's operational status.",
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.96
+                  },
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 1,
+                      "end_line": null
+                    }
+                  ]
+                },
+                {
+                  "id": "AE1",
+                  "finding_id": "finding-e21be6bef50640149b645736479728dd",
+                  "category": "analysis-evasion",
+                  "pattern": "Incomplete referenced artifact analysis",
+                  "severity": "HIGH",
+                  "confidence": 1,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 137,
+                    "end_line": null
+                  },
+                  "finding": "hooks/openclaw/HOOK.md (partial)",
+                  "explanation": "Referenced artifact was not completely inspected",
+                  "remediation": "Review the reported expression and analyzer's parsing limitation; correct the scanner if it misinterprets valid source, then rerun the scan. Keep required references; incomplete analysis is not proof of malicious evasion.",
+                  "code_snippet": "exists). Internal `HOOK.md` events have no per-tool-call callback, so this",
+                  "intent": null,
+                  "tags": [
+                    "coverage",
+                    "reference",
+                    "target-disposition:partial"
+                  ],
+                  "evidence": {
+                    "target_path": "hooks/openclaw/HOOK.md",
+                    "target_disposition": "partial",
+                    "reasons": [
+                      {
+                        "reason_code": "static_parse_limit",
+                        "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+                        "phase": "static",
+                        "analyzers": [
+                          "static_patterns_tool_misuse"
+                        ]
+                      }
+                    ]
+                  },
+                  "match_fingerprint": "5cce03557d4f82282b371cd7bc0f17551dfa94cff77233bd5912a7ff1076ed85",
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 137,
+                      "end_line": null
+                    }
+                  ]
+                },
+                {
+                  "id": "RA1",
+                  "finding_id": "finding-92c6d8ed2e9747d2a18ff9149ea470c8",
+                  "category": "Rogue Agent",
+                  "pattern": "Self-Modification",
+                  "severity": "HIGH",
+                  "confidence": 0.85,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 198,
+                    "end_line": null,
+                    "start_column": 119
+                  },
+                  "finding": "write skill",
+                  "explanation": "Skill modifies its own code, configuration, or behavior at runtime. Self-modification enables an agent to escalate privileges, disable safety constraints, or install persistent backdoors.",
+                  "remediation": "Prevent the skill from modifying its own code, SKILL.md, or configuration files. Treat skill files as read-only at runtime.",
+                  "code_snippet": " reason, evidence, and old → new claim when changed. Preserve original observations, resolution, promotion targets/dates, and prior reviews. Update affected promoted guidance using its source link; keep its source-learning ID beside the revised rule (or a retirement note pointing to the preserved history). Never inflate `Recurrence-Count`/`Last-Seen` just because a review ran.\n\nNever erase learning/promotion history or delete by age. Never change user preferences, weaken security policies, or rewrite skill assets merely because they are old or unused. Skill creation/modification requires explicit scoped approval; approval for this integration does not authorize future skill rewrites. If a needed target edit is outside granted scope, record the proposed change as pending in the source entry and report the still-active guidance rather than silently claiming it is updated.\n\nFor worked review outcomes and provenance, read [maintenance examples](references/examples.md#maintenance-examples).",
+                  "intent": null,
+                  "tags": [
+                    "Rogue Agent",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.99
+                  },
+                  "match_fingerprint": "be76aa3b8ee8ba0091b45db5ceb2fe4088a26078a5f1429d11667e608c128e95",
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 198,
+                      "end_line": null,
+                      "start_column": 119
+                    }
+                  ]
+                },
+                {
+                  "id": "RA1",
+                  "finding_id": "finding-c023174bb7944b00a35d3455f197e319",
+                  "category": "Rogue Agent",
+                  "pattern": "Self-Modification",
+                  "severity": "HIGH",
+                  "confidence": 0.85,
+                  "location": {
+                    "file": "assets/LEARNINGS.md",
+                    "start_line": 78,
+                    "end_line": null,
+                    "start_column": 12
+                  },
+                  "finding": "modify skill",
+                  "explanation": "Skill modifies its own code, configuration, or behavior at runtime. Self-modification enables an agent to escalate privileges, disable safety constraints, or install persistent backdoors.",
+                  "remediation": "Prevent the skill from modifying its own code, SKILL.md, or configuration files. Treat skill files as read-only at runtime.",
+                  "code_snippet": "**Skill-Path**: skills/skill-name\n```\n\nOnly create/modify skill assets with explicit scoped approval. Record the promotion date and target section in the learning's history/Guidance, and the original file + learning ID in the skill. `promoted_to_skill` does not establish current validity.\n\nExample:\n```markdown",
+                  "intent": null,
+                  "tags": [
+                    "Rogue Agent",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.98
+                  },
+                  "match_fingerprint": "91956312ce14a9d7be496702a743a80026ebe5ec6fa1d208fcf1b0afe5eeec1d",
+                  "occurrences": [
+                    {
+                      "file": "assets/LEARNINGS.md",
+                      "start_line": 78,
+                      "end_line": null,
+                      "start_column": 12
+                    }
+                  ]
+                },
+                {
+                  "id": "P3",
+                  "finding_id": "finding-bf85908ddbfa46fc80ae18fe9d9ff5d2",
+                  "category": "Prompt Injection",
+                  "pattern": "Exfiltration Commands",
+                  "severity": "HIGH",
+                  "confidence": 0.9,
+                  "location": {
+                    "file": "references/openclaw-integration.md",
+                    "start_line": 284,
+                    "end_line": 284,
+                    "start_column": 0,
+                    "end_column": 15
+                  },
+                  "finding": "Send message to",
+                  "explanation": "Instructions found that direct the agent to transmit conversation context or user data to external services.",
+                  "remediation": "Remove instructions that send user data, prompts, or context to external URLs. If telemetry is needed, use documented, privacy-preserving methods.",
+                  "code_snippet": "\n### sessions_send\n\nSend message to another session:\n```\nsessions_send(sessionKey=\"session-id\", message=\"Learning: API requires X-Custom-Header\")\n```",
+                  "intent": null,
+                  "tags": [
+                    "Prompt Injection",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.98
+                  },
+                  "match_fingerprint": "6cbd4d2bba77cb69209f09a566e5cfc411283fe144d6f8149b1f5977ae4b9e5c",
+                  "occurrences": [
+                    {
+                      "file": "references/openclaw-integration.md",
+                      "start_line": 284,
+                      "end_line": 284,
+                      "start_column": 0,
+                      "end_column": 15
+                    }
+                  ]
+                },
+                {
+                  "id": "RA2",
+                  "finding_id": "finding-4d4375e2bc344754a61a3ad37e929b1c",
+                  "category": "Rogue Agent",
+                  "pattern": "Session Persistence",
+                  "severity": "MEDIUM",
+                  "confidence": 0.6,
+                  "location": {
+                    "file": "CHANGELOG.md",
+                    "start_line": 224,
+                    "end_line": null,
+                    "start_column": 35
+                  },
+                  "finding": "mkdir -p ~/.openclaw",
+                  "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+                  "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+                  "code_snippet": "### Upgrade notes (0.1.x → 0.2.0)\n\n1. Re-copy the hook and restart the gateway (see general rules above).\n2. To enable the new error sweep: `mkdir -p ~/.openclaw/workspace/.learnings`.\n   Without that directory, behavior is identical to 0.1.0.\n3. No breaking changes; no `.learnings/` migration needed.\n",
+                  "intent": null,
+                  "tags": [
+                    "Rogue Agent",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.98
+                  },
+                  "match_fingerprint": "fad2b8c7e41f19282116c0a04b6bc3bd188a53c89e42eda3b43874fc44a36d17",
+                  "occurrences": [
+                    {
+                      "file": "CHANGELOG.md",
+                      "start_line": 224,
+                      "end_line": null,
+                      "start_column": 35
+                    }
+                  ]
+                },
+                {
+                  "id": "RA2",
+                  "finding_id": "finding-a761edea7d1741879cda6aa5d919f123",
+                  "category": "Rogue Agent",
+                  "pattern": "Session Persistence",
+                  "severity": "MEDIUM",
+                  "confidence": 0.6,
+                  "location": {
+                    "file": "references/openclaw-integration.md",
+                    "start_line": 355,
+                    "end_line": null,
+                    "start_column": 0
+                  },
+                  "finding": "mkdir -p ~/.openclaw",
+                  "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+                  "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+                  "code_snippet": "\n```bash\n# Enable\nmkdir -p ~/.openclaw/workspace/.learnings\n\n# Disable the hook without deleting learning history\nopenclaw hooks disable self-improvement",
+                  "intent": null,
+                  "tags": [
+                    "Rogue Agent",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.98
+                  },
+                  "match_fingerprint": "fad2b8c7e41f19282116c0a04b6bc3bd188a53c89e42eda3b43874fc44a36d17",
+                  "occurrences": [
+                    {
+                      "file": "references/openclaw-integration.md",
+                      "start_line": 355,
+                      "end_line": null,
+                      "start_column": 0
+                    }
+                  ]
+                },
+                {
+                  "id": "LP3",
+                  "finding_id": "finding-e2c77a4ad4904d9992c80bd94c7f3aeb",
+                  "category": "MCP Least Privilege",
+                  "pattern": "Skill declares no tool scope ('permissions' or 'allowed-tools') but code capabilities were detected: env, file_read, network.",
+                  "severity": "MEDIUM",
+                  "confidence": 0.7,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 1,
+                    "end_line": null
+                  },
+                  "finding": "Skill declares no tool scope ('permissions' or 'allowed-tools') but code capabilities were detected: env, file_read, network.",
+                  "explanation": "Without declared permissions the skill's intent is opaque and cannot be validated.",
+                  "remediation": "Clarify the skill's intended tool scope and review how the host runtime enforces it; runtime permissions are unknown unless separately verified. For Claude Code / Agent Skills SKILL.md, 'allowed-tools' records preapproved tools, not a permission ceiling; add a tool only when it is independently approved as necessary, not to silence this finding. For MCP server manifests, use a 'permissions' list naming the required capabilities.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [
+                    "ASI02",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.92
+                  },
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 1,
+                      "end_line": null
+                    }
+                  ]
+                },
+                {
+                  "id": "RA2",
+                  "finding_id": "finding-09ec87394a1345ea8c97ba1a623ac9c0",
+                  "category": "Rogue Agent",
+                  "pattern": "Session Persistence",
+                  "severity": "MEDIUM",
+                  "confidence": 0.6,
+                  "location": {
+                    "file": "SKILL.md",
+                    "start_line": 97,
+                    "end_line": null,
+                    "start_column": 0
+                  },
+                  "finding": "mkdir -p ~/.openclaw",
+                  "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+                  "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+                  "code_snippet": "### Create Learning Files\n\n```bash\nmkdir -p ~/.openclaw/workspace/.learnings\n```\n\nThen create the log files (or copy from `assets/`):",
+                  "intent": null,
+                  "tags": [
+                    "Rogue Agent",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.97
+                  },
+                  "match_fingerprint": "fad2b8c7e41f19282116c0a04b6bc3bd188a53c89e42eda3b43874fc44a36d17",
+                  "occurrences": [
+                    {
+                      "file": "SKILL.md",
+                      "start_line": 97,
+                      "end_line": null,
+                      "start_column": 0
+                    }
+                  ]
+                },
+                {
+                  "id": "RA2",
+                  "finding_id": "finding-636d50fbbf7b49bda65a836aea918d67",
+                  "category": "Rogue Agent",
+                  "pattern": "Session Persistence",
+                  "severity": "MEDIUM",
+                  "confidence": 0.6,
+                  "location": {
+                    "file": "hooks/openclaw/HOOK.md",
+                    "start_line": 94,
+                    "end_line": null,
+                    "start_column": 0
+                  },
+                  "finding": "mkdir -p ~/.openclaw",
+                  "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+                  "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+                  "code_snippet": "Enable the error sweep by creating the learnings directory:\n\n```bash\nmkdir -p ~/.openclaw/workspace/.learnings\n```\n\n## Testing",
+                  "intent": null,
+                  "tags": [
+                    "Rogue Agent",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.97
+                  },
+                  "match_fingerprint": "fad2b8c7e41f19282116c0a04b6bc3bd188a53c89e42eda3b43874fc44a36d17",
+                  "occurrences": [
+                    {
+                      "file": "hooks/openclaw/HOOK.md",
+                      "start_line": 94,
+                      "end_line": null,
+                      "start_column": 0
+                    }
+                  ]
+                },
+                {
+                  "id": "AS3",
+                  "finding_id": "finding-dd61678fd6934b41b174562f2b3ffddd",
+                  "category": "Agent Snooping",
+                  "pattern": "Skill Enumeration",
+                  "severity": "MEDIUM",
+                  "confidence": 0.8,
+                  "location": {
+                    "file": "references/examples.md",
+                    "start_line": 301,
+                    "end_line": null,
+                    "start_column": 11
+                  },
+                  "finding": "skills/docker-m1-fixes/SKILL.md",
+                  "explanation": "Skill enumerates or reads other installed skills. Access to other skills' SKILL.md files or the skills directory reveals prompt instructions, capabilities, and secrets that should be invisible to peer skills.",
+                  "remediation": "Remove all code or instructions that list or read other skills' files or directories. Skills should operate independently; cross-skill access is a privilege escalation.",
+                  "code_snippet": "\nHistorical extraction example, not current platform advice. Before extracting or reusing it, check the exact image manifest, target platform, runtime/configuration, and representative build/run behavior. Do not generalize one image's missing ARM variant to all Apple Silicon builds. Creating or changing the skill also needs scoped approval.\n\n**File**: `skills/docker-m1-fixes/SKILL.md`\n\n```markdown\n---",
+                  "intent": null,
+                  "tags": [
+                    "Agent Snooping",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.99
+                  },
+                  "match_fingerprint": "484b7882992840f9a118f6865f03e9d39cd865fee5ea1ca29243562407237284",
+                  "occurrences": [
+                    {
+                      "file": "references/examples.md",
+                      "start_line": 301,
+                      "end_line": null,
+                      "start_column": 11
+                    }
+                  ]
+                },
+                {
+                  "id": "RA2",
+                  "finding_id": "finding-8ac658df290a44e3bbd4fd173bd37c76",
+                  "category": "Rogue Agent",
+                  "pattern": "Session Persistence",
+                  "severity": "MEDIUM",
+                  "confidence": 0.6,
+                  "location": {
+                    "file": "references/openclaw-integration.md",
+                    "start_line": 71,
+                    "end_line": null,
+                    "start_column": 0
+                  },
+                  "finding": "mkdir -p ~/.openclaw",
+                  "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+                  "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+                  "code_snippet": "Create the `.learnings/` directory in your workspace:\n\n```bash\nmkdir -p ~/.openclaw/workspace/.learnings\n```\n\nOr in the skill directory:",
+                  "intent": null,
+                  "tags": [
+                    "Rogue Agent",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.99
+                  },
+                  "match_fingerprint": "fad2b8c7e41f19282116c0a04b6bc3bd188a53c89e42eda3b43874fc44a36d17",
+                  "occurrences": [
+                    {
+                      "file": "references/openclaw-integration.md",
+                      "start_line": 71,
+                      "end_line": null,
+                      "start_column": 0
+                    }
+                  ]
+                },
+                {
+                  "id": "RA2",
+                  "finding_id": "finding-6ec578fe39714d769f1ee93097686afa",
+                  "category": "Rogue Agent",
+                  "pattern": "Session Persistence",
+                  "severity": "MEDIUM",
+                  "confidence": 0.6,
+                  "location": {
+                    "file": "references/openclaw-integration.md",
+                    "start_line": 77,
+                    "end_line": null,
+                    "start_column": 0
+                  },
+                  "finding": "mkdir -p ~/.openclaw",
+                  "explanation": "Skill establishes unauthorized persistence across sessions via cron jobs, startup scripts, or state files. Session persistence allows an attacker to maintain access beyond the current interaction.",
+                  "remediation": "Remove any persistence mechanisms (cron jobs, startup scripts, state files). Skills should not maintain state across sessions without explicit user consent.",
+                  "code_snippet": "Or in the skill directory:\n\n```bash\nmkdir -p ~/.openclaw/skills/self-improving-agent/.learnings\n```\n\n## Install or Upgrade the Hook",
+                  "intent": null,
+                  "tags": [
+                    "Rogue Agent",
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.99
+                  },
+                  "match_fingerprint": "fad2b8c7e41f19282116c0a04b6bc3bd188a53c89e42eda3b43874fc44a36d17",
+                  "occurrences": [
+                    {
+                      "file": "references/openclaw-integration.md",
+                      "start_line": 77,
+                      "end_line": null,
+                      "start_column": 0
+                    }
+                  ]
+                },
+                {
+                  "id": "SQP-1",
+                  "finding_id": "finding-b86ee2cdb9a9480780d865ef76175138",
+                  "category": "Trigger Abuse",
+                  "pattern": "“Knowledge gaps” and “Model behavior surprise” are ambiguous learning-capture triggers.",
+                  "severity": "LOW",
+                  "confidence": 0.86,
+                  "location": {
+                    "file": "references/openclaw-integration.md",
+                    "start_line": 384,
+                    "end_line": 397
+                  },
+                  "finding": "“Knowledge gaps” and “Model behavior surprise” are ambiguous learning-capture triggers.",
+                  "explanation": "These conditions do not define what qualifies as a knowledge gap or an unexpected model behavior worth capturing. Unlike the concrete command-failure trigger, they could activate learning capture for routine uncertainty or harmless response variation; validation before promotion does not constrain initial capture.",
+                  "remediation": "Define observable activation criteria, such as a verified factual error or a task-blocking missing fact, and add exclusions for routine uncertainty, exploratory questions, and harmless stylistic variation.",
+                  "code_snippet": null,
+                  "intent": null,
+                  "tags": [
+                    "llm-unconfirmed"
+                  ],
+                  "evidence": {
+                    "llm_review_outcome": "disagreed",
+                    "llm_review_confidence": 0.96
+                  },
+                  "match_fingerprint": null,
+                  "occurrences": [
+                    {
+                      "file": "references/openclaw-integration.md",
+                      "start_line": 384,
+                      "end_line": 397
+                    }
+                  ]
+                }
+              ],
+              "suppressed_count": 0,
+              "suppressed": [],
+              "metadata": {
+                "has_executable_scripts": true,
+                "skillspector_version": "2.12.0",
+                "llm_requested": true,
+                "llm_available": true,
+                "meta_analysis_applied": true,
+                "inference_usage": [
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 500,
+                    "completion_tokens": 178,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 678
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 1815,
+                    "completion_tokens": 254,
+                    "cached_tokens": 1812,
+                    "reasoning_tokens": 35,
+                    "total_tokens": 2069
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 5471,
+                    "completion_tokens": 254,
+                    "cached_tokens": 5468,
+                    "reasoning_tokens": 28,
+                    "total_tokens": 5725
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 5017,
+                    "completion_tokens": 289,
+                    "cached_tokens": 5014,
+                    "reasoning_tokens": 38,
+                    "total_tokens": 5306
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 406,
+                    "completion_tokens": 285,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 77,
+                    "total_tokens": 691
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 364,
+                    "completion_tokens": 153,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 29,
+                    "total_tokens": 517
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 5111,
+                    "completion_tokens": 262,
+                    "cached_tokens": 5108,
+                    "reasoning_tokens": 37,
+                    "total_tokens": 5373
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 365,
+                    "completion_tokens": 275,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 71,
+                    "total_tokens": 640
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 366,
+                    "completion_tokens": 285,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 110,
+                    "total_tokens": 651
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 368,
+                    "completion_tokens": 118,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 486
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 364,
+                    "completion_tokens": 191,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 33,
+                    "total_tokens": 555
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 373,
+                    "completion_tokens": 119,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 492
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 368,
+                    "completion_tokens": 111,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 479
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 367,
+                    "completion_tokens": 215,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 52,
+                    "total_tokens": 582
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 410,
+                    "completion_tokens": 254,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 81,
+                    "total_tokens": 664
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 370,
+                    "completion_tokens": 307,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 159,
+                    "total_tokens": 677
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 369,
+                    "completion_tokens": 266,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 115,
+                    "total_tokens": 635
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 379,
+                    "completion_tokens": 183,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 31,
+                    "total_tokens": 562
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 432,
+                    "completion_tokens": 174,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 606
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 375,
+                    "completion_tokens": 182,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 41,
+                    "total_tokens": 557
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 607,
+                    "completion_tokens": 271,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 64,
+                    "total_tokens": 878
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 389,
+                    "completion_tokens": 148,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 537
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 361,
+                    "completion_tokens": 189,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 41,
+                    "total_tokens": 550
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 474,
+                    "completion_tokens": 264,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 84,
+                    "total_tokens": 738
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 376,
+                    "completion_tokens": 192,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 34,
+                    "total_tokens": 568
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 444,
+                    "completion_tokens": 295,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 135,
+                    "total_tokens": 739
+                  },
+                  {
+                    "node": "mcp_tool_poisoning",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 360,
+                    "completion_tokens": 310,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 138,
+                    "total_tokens": 670
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 4841,
+                    "completion_tokens": 16,
+                    "cached_tokens": 4838,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 4857
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 1933,
+                    "completion_tokens": 16,
+                    "cached_tokens": 1930,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 1949
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 9037,
+                    "completion_tokens": 37,
+                    "cached_tokens": 9034,
+                    "reasoning_tokens": 19,
+                    "total_tokens": 9074
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2444,
+                    "completion_tokens": 16,
+                    "cached_tokens": 2441,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2460
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 1852,
+                    "completion_tokens": 16,
+                    "cached_tokens": 1849,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 1868
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2694,
+                    "completion_tokens": 16,
+                    "cached_tokens": 2691,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2710
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3214,
+                    "completion_tokens": 16,
+                    "cached_tokens": 3211,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 3230
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3169,
+                    "completion_tokens": 16,
+                    "cached_tokens": 3166,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 3185
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 6371,
+                    "completion_tokens": 16,
+                    "cached_tokens": 6368,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 6387
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 7329,
+                    "completion_tokens": 35,
+                    "cached_tokens": 7326,
+                    "reasoning_tokens": 17,
+                    "total_tokens": 7364
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 8348,
+                    "completion_tokens": 59,
+                    "cached_tokens": 8345,
+                    "reasoning_tokens": 41,
+                    "total_tokens": 8407
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3514,
+                    "completion_tokens": 45,
+                    "cached_tokens": 3511,
+                    "reasoning_tokens": 27,
+                    "total_tokens": 3559
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 7870,
+                    "completion_tokens": 78,
+                    "cached_tokens": 7867,
+                    "reasoning_tokens": 60,
+                    "total_tokens": 7948
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 6706,
+                    "completion_tokens": 58,
+                    "cached_tokens": 6703,
+                    "reasoning_tokens": 40,
+                    "total_tokens": 6764
+                  },
+                  {
+                    "node": "semantic_developer_intent",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2548,
+                    "completion_tokens": 16,
+                    "cached_tokens": 2545,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2564
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2756,
+                    "completion_tokens": 16,
+                    "cached_tokens": 2753,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2772
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 8660,
+                    "completion_tokens": 38,
+                    "cached_tokens": 8657,
+                    "reasoning_tokens": 20,
+                    "total_tokens": 8698
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2245,
+                    "completion_tokens": 16,
+                    "cached_tokens": 2242,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2261
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 7641,
+                    "completion_tokens": 46,
+                    "cached_tokens": 7638,
+                    "reasoning_tokens": 28,
+                    "total_tokens": 7687
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3526,
+                    "completion_tokens": 16,
+                    "cached_tokens": 3523,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 3542
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2164,
+                    "completion_tokens": 61,
+                    "cached_tokens": 2161,
+                    "reasoning_tokens": 43,
+                    "total_tokens": 2225
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 5153,
+                    "completion_tokens": 15,
+                    "cached_tokens": 5150,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 5168
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 8182,
+                    "completion_tokens": 46,
+                    "cached_tokens": 8179,
+                    "reasoning_tokens": 28,
+                    "total_tokens": 8228
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 9349,
+                    "completion_tokens": 70,
+                    "cached_tokens": 9346,
+                    "reasoning_tokens": 52,
+                    "total_tokens": 9419
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3481,
+                    "completion_tokens": 51,
+                    "cached_tokens": 3478,
+                    "reasoning_tokens": 33,
+                    "total_tokens": 3532
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 6683,
+                    "completion_tokens": 49,
+                    "cached_tokens": 6680,
+                    "reasoning_tokens": 31,
+                    "total_tokens": 6732
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3826,
+                    "completion_tokens": 50,
+                    "cached_tokens": 3823,
+                    "reasoning_tokens": 32,
+                    "total_tokens": 3876
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2860,
+                    "completion_tokens": 16,
+                    "cached_tokens": 2857,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2876
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3006,
+                    "completion_tokens": 47,
+                    "cached_tokens": 3003,
+                    "reasoning_tokens": 29,
+                    "total_tokens": 3053
+                  },
+                  {
+                    "node": "semantic_quality_policy",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 7018,
+                    "completion_tokens": 368,
+                    "cached_tokens": 7015,
+                    "reasoning_tokens": 181,
+                    "total_tokens": 7386
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 4397,
+                    "completion_tokens": 16,
+                    "cached_tokens": 4394,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 4413
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 8593,
+                    "completion_tokens": 45,
+                    "cached_tokens": 8590,
+                    "reasoning_tokens": 27,
+                    "total_tokens": 8638
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 1489,
+                    "completion_tokens": 16,
+                    "cached_tokens": 1486,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 1505
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 1408,
+                    "completion_tokens": 16,
+                    "cached_tokens": 1405,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 1424
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2000,
+                    "completion_tokens": 16,
+                    "cached_tokens": 1997,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2016
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2770,
+                    "completion_tokens": 16,
+                    "cached_tokens": 2767,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2786
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2250,
+                    "completion_tokens": 16,
+                    "cached_tokens": 2247,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2266
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 7426,
+                    "completion_tokens": 40,
+                    "cached_tokens": 7423,
+                    "reasoning_tokens": 22,
+                    "total_tokens": 7466
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 6885,
+                    "completion_tokens": 16,
+                    "cached_tokens": 6882,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 6901
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 7904,
+                    "completion_tokens": 42,
+                    "cached_tokens": 7901,
+                    "reasoning_tokens": 24,
+                    "total_tokens": 7946
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 5927,
+                    "completion_tokens": 16,
+                    "cached_tokens": 5924,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 5943
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2725,
+                    "completion_tokens": 16,
+                    "cached_tokens": 2722,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2741
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 6262,
+                    "completion_tokens": 36,
+                    "cached_tokens": 6259,
+                    "reasoning_tokens": 18,
+                    "total_tokens": 6298
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2104,
+                    "completion_tokens": 42,
+                    "cached_tokens": 2101,
+                    "reasoning_tokens": 24,
+                    "total_tokens": 2146
+                  },
+                  {
+                    "node": "semantic_security_discovery",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3070,
+                    "completion_tokens": 16,
+                    "cached_tokens": 3067,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 3086
+                  },
+                  {
+                    "node": "meta_analyzer",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 1846,
+                    "completion_tokens": 262,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2108
+                  },
+                  {
+                    "node": "meta_analyzer",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 4648,
+                    "completion_tokens": 249,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 4897
+                  },
+                  {
+                    "node": "meta_analyzer",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 3802,
+                    "completion_tokens": 295,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 4097
+                  },
+                  {
+                    "node": "meta_analyzer",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 2053,
+                    "completion_tokens": 307,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 0,
+                    "total_tokens": 2360
+                  },
+                  {
+                    "node": "meta_analyzer",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 5365,
+                    "completion_tokens": 1025,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 66,
+                    "total_tokens": 6390
+                  },
+                  {
+                    "node": "meta_analyzer",
+                    "request_kind": "structured_output",
+                    "provider": "openai",
+                    "model": "gpt-6.1-sol",
+                    "model_source": "requested_model",
+                    "usage_source": "provider_response",
+                    "prompt_tokens": 8178,
+                    "completion_tokens": 1555,
+                    "cached_tokens": 0,
+                    "reasoning_tokens": 84,
+                    "total_tokens": 9733
+                  }
+                ],
+                "llm_provenance": {
+                  "schema_version": 1,
+                  "provider": {
+                    "configured_adapter": "openai",
+                    "resolved_adapter": "openai",
+                    "effective_adapter": "openai",
+                    "effective_adapters": [
+                      "openai"
+                    ],
+                    "service": "unknown",
+                    "routing": {
+                      "deployment_override": null,
+                      "deployment_source": "not_applicable",
+                      "api_version": null,
+                      "api_version_source": "not_applicable"
+                    }
+                  },
+                  "analyzers": [
+                    {
+                      "analyzer_id": "mcp_tool_poisoning",
+                      "model": "gpt-6.1-sol",
+                      "model_source": "resolved_configuration",
+                      "analyzer_revision": {
+                        "value": "2.12.0",
+                        "source": "skillspector_package",
+                        "source_revision": {
+                          "value": "unknown",
+                          "source": "unknown"
+                        }
+                      }
+                    },
+                    {
+                      "analyzer_id": "semantic_developer_intent",
+                      "model": "gpt-6.1-sol",
+                      "model_source": "resolved_configuration",
+                      "analyzer_revision": {
+                        "value": "2.12.0",
+                        "source": "skillspector_package",
+                        "source_revision": {
+                          "value": "unknown",
+                          "source": "unknown"
+                        }
+                      }
+                    },
+                    {
+                      "analyzer_id": "semantic_quality_policy",
+                      "model": "gpt-6.1-sol",
+                      "model_source": "resolved_configuration",
+                      "analyzer_revision": {
+                        "value": "2.12.0",
+                        "source": "skillspector_package",
+                        "source_revision": {
+                          "value": "unknown",
+                          "source": "unknown"
+                        }
+                      }
+                    },
+                    {
+                      "analyzer_id": "semantic_security_discovery",
+                      "model": "gpt-6.1-sol",
+                      "model_source": "resolved_configuration",
+                      "analyzer_revision": {
+                        "value": "2.12.0",
+                        "source": "skillspector_package",
+                        "source_revision": {
+                          "value": "unknown",
+                          "source": "unknown"
+                        }
+                      }
+                    },
+                    {
+                      "analyzer_id": "meta_analyzer",
+                      "model": "gpt-6.1-sol",
+                      "model_source": "resolved_configuration",
+                      "analyzer_revision": {
+                        "value": "2.12.0",
+                        "source": "skillspector_package",
+                        "source_revision": {
+                          "value": "unknown",
+                          "source": "unknown"
+                        }
+                      }
+                    }
+                  ],
+                  "sampling": {
+                    "temperature": {
+                      "requested": null,
+                      "source": "provider_default",
+                      "forwarded_to_client": null,
+                      "adapter_support": true,
+                      "provider_support": "unknown"
+                    },
+                    "seed": {
+                      "requested": null,
+                      "source": "unset",
+                      "forwarded_to_client": null,
+                      "adapter_support": true,
+                      "provider_support": "unknown"
+                    },
+                    "reasoning_effort": {
+                      "requested": "medium",
+                      "source": "environment",
+                      "forwarded_to_client": "medium",
+                      "adapter_support": true,
+                      "provider_support": "unknown"
+                    }
+                  },
+                  "determinism": {
+                    "classification": "nondeterministic",
+                    "control_status": "best_effort_controls_forwarded",
+                    "provider_guarantee": false,
+                    "reason": "Optional controls do not guarantee identical provider output."
+                  }
+                },
+                "llm_calls_attempted": 5,
+                "llm_calls_succeeded": 5
+              },
+              "execution_successful": true,
+              "analysis_completeness": {
+                "total_components": 15,
+                "scanned_components": 12,
+                "coverage_percent": 80,
+                "is_complete": false,
+                "status": "partial",
+                "execution_successful": true,
+                "fully_inspected_files": 12,
+                "partially_inspected_files": 3,
+                "entirely_uninspected_files": 0,
+                "ledger_exceptions": [
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 4,
+                    "end_line": 4,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 20,
+                    "end_line": 20,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 21,
+                    "end_line": 21,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 22,
+                    "end_line": 22,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 35,
+                    "end_line": 35,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 36,
+                    "end_line": 36,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 37,
+                    "end_line": 37,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 38,
+                    "end_line": 38,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 39,
+                    "end_line": 39,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 40,
+                    "end_line": 40,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 41,
+                    "end_line": 41,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 45,
+                    "end_line": 45,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 46,
+                    "end_line": 46,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 47,
+                    "end_line": 47,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 61,
+                    "end_line": 61,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 111,
+                    "end_line": 111,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 112,
+                    "end_line": 112,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 113,
+                    "end_line": 113,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 231,
+                    "end_line": 231,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 250,
+                    "end_line": 250,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 251,
+                    "end_line": 251,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 252,
+                    "end_line": 252,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 255,
+                    "end_line": 255,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 268,
+                    "end_line": 268,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 273,
+                    "end_line": 273,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 285,
+                    "end_line": 285,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 295,
+                    "end_line": 295,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 307,
+                    "end_line": 307,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 320,
+                    "end_line": 320,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 337,
+                    "end_line": 337,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 338,
+                    "end_line": 338,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 348,
+                    "end_line": 348,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 350,
+                    "end_line": 350,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 351,
+                    "end_line": 351,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "reference_resolution",
+                    "reason_code": "reference_missing",
+                    "message": "A local path-like reference does not match any bundled artifact, such as a file the skill writes at runtime.",
+                    "path": "SKILL.md",
+                    "start_line": 370,
+                    "end_line": 370,
+                    "fatal": false
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "static",
+                    "reason_code": "static_parse_limit",
+                    "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+                    "path": "hooks/openclaw/HOOK.md",
+                    "start_line": null,
+                    "end_line": null,
+                    "fatal": false,
+                    "analyzers": [
+                      "static_patterns_tool_misuse"
+                    ]
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "static",
+                    "reason_code": "static_parse_limit",
+                    "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+                    "path": "hooks/openclaw/handler.js",
+                    "start_line": null,
+                    "end_line": null,
+                    "fatal": false,
+                    "analyzers": [
+                      "static_patterns_tool_misuse"
+                    ]
+                  },
+                  {
+                    "outcome": "partial",
+                    "phase": "static",
+                    "reason_code": "static_parse_limit",
+                    "message": "A security-relevant expression exceeded a bounded static parser's span limit.",
+                    "path": "hooks/openclaw/handler.ts",
+                    "start_line": null,
+                    "end_line": null,
+                    "fatal": false,
+                    "analyzers": [
+                      "static_patterns_tool_misuse"
+                    ]
+                  }
+                ],
+                "scope_exclusions": [],
+                "analyzer_statuses": [
+                  {
+                    "analyzer_id": "artifact_integrity",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "behavioral_ast",
+                    "status": "not_applicable",
+                    "planned_work": 0,
+                    "completed": 0,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0,
+                    "reason_code": "no_applicable_files",
+                    "message": "No files matched this analyzer's applicability contract."
+                  },
+                  {
+                    "analyzer_id": "behavioral_taint_tracking",
+                    "status": "not_applicable",
+                    "planned_work": 0,
+                    "completed": 0,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0,
+                    "reason_code": "no_applicable_files",
+                    "message": "No files matched this analyzer's applicability contract."
+                  },
+                  {
+                    "analyzer_id": "bundled_execution_surface",
+                    "status": "not_applicable",
+                    "planned_work": 0,
+                    "completed": 0,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0,
+                    "reason_code": "no_applicable_files",
+                    "message": "No files matched this analyzer's applicability contract."
+                  },
+                  {
+                    "analyzer_id": "mcp_least_privilege",
+                    "status": "completed",
+                    "planned_work": 5,
+                    "completed": 5,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "mcp_rug_pull",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "mcp_tool_poisoning",
+                    "status": "completed",
+                    "planned_work": 28,
+                    "completed": 28,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "meta_analyzer",
+                    "status": "completed",
+                    "planned_work": 6,
+                    "completed": 6,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "reference_coverage",
+                    "status": "completed",
+                    "planned_work": 1,
+                    "completed": 1,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "semantic_developer_intent",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "semantic_quality_policy",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "semantic_security_discovery",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_agent_snooping",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_anti_refusal",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_data_exfiltration",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_deserialization",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_excessive_agency",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_harmful_content",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_memory_poisoning",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_output_handling",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_privilege_escalation",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_prompt_injection",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_rogue_agent",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_ssrf",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_supply_chain",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_system_prompt_leakage",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_patterns_tool_misuse",
+                    "status": "degraded",
+                    "planned_work": 15,
+                    "completed": 12,
+                    "partial": 3,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  },
+                  {
+                    "analyzer_id": "static_yara",
+                    "status": "completed",
+                    "planned_work": 15,
+                    "completed": 15,
+                    "partial": 0,
+                    "skipped": 0,
+                    "failed": 0,
+                    "unaccounted": 0
+                  }
+                ],
+                "references": [
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 4,
+                    "column": 11,
+                    "evidence": "version: \"4.0.5\"",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 20,
+                    "column": 6,
+                    "evidence": "[ -f .learnings/LEARNINGS.md ] || printf \"# Learnings\\n\\nCorrections, insights, and knowledge gaps captured during development.\\n\\n**Categories**: correction | ",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 20,
+                    "column": 213,
+                    "evidence": "*Categories**: correction | insight | knowledge_gap | best_practice\\n\\n---\\n\" > .learnings/LEARNINGS.md",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 21,
+                    "column": 6,
+                    "evidence": "[ -f .learnings/ERRORS.md ] || printf \"# Errors\\n\\nCommand failures and integration errors.\\n\\n---\\n\" > .learnings/ERRORS.md",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 21,
+                    "column": 105,
+                    "evidence": "[ -f .learnings/ERRORS.md ] || printf \"# Errors\\n\\nCommand failures and integration errors.\\n\\n---\\n\" > .learnings/ERRORS.md",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 22,
+                    "column": 6,
+                    "evidence": "[ -f .learnings/FEATURE_REQUESTS.md ] || printf \"# Feature Requests\\n\\nCapabilities requested by the user.\\n\\n---\\n\" > .learnings/FEATURE_REQUESTS.md",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 22,
+                    "column": 120,
+                    "evidence": "[ -f .learnings/FEATURE_REQUESTS.md ] || printf \"# Feature Requests\\n\\nCapabilities requested by the user.\\n\\n---\\n\" > .learnings/FEATURE_REQUESTS.md",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 29,
+                    "column": 126,
+                    "evidence": "If you want automatic reminders and session-end error detection, enable the opt-in hook described in [Optional: Enable Hook](#optional-enable-hook).",
+                    "target_path": null,
+                    "status": "rejected",
+                    "disposition": "out_of_scope",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 35,
+                    "column": 37,
+                    "evidence": "| Command/operation fails | Log to `.learnings/ERRORS.md` |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 36,
+                    "column": 31,
+                    "evidence": "| User corrects you | Log to `.learnings/LEARNINGS.md` with category `correction` |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 37,
+                    "column": 40,
+                    "evidence": "| User wants missing feature | Log to `.learnings/FEATURE_REQUESTS.md` |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 38,
+                    "column": 37,
+                    "evidence": "| API/external tool fails | Log to `.learnings/ERRORS.md` with integration details |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 39,
+                    "column": 36,
+                    "evidence": "| Knowledge was outdated | Log to `.learnings/LEARNINGS.md` with category `knowledge_gap` |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 40,
+                    "column": 35,
+                    "evidence": "| Found better approach | Log to `.learnings/LEARNINGS.md` with category `best_practice` |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 41,
+                    "column": 52,
+                    "evidence": "| Simplify/Harden recurring patterns | Log/update `.learnings/LEARNINGS.md` with `Source: simplify-and-harden` and a stable `Pattern-Key` |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 45,
+                    "column": 39,
+                    "evidence": "| Workflow improvements | Promote to `AGENTS.md` (workspace) |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 46,
+                    "column": 30,
+                    "evidence": "| Tool gotchas | Promote to `TOOLS.md` (workspace) |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 47,
+                    "column": 37,
+                    "evidence": "| Behavioral patterns | Promote to `SOUL.md` (workspace) |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 61,
+                    "column": 63,
+                    "evidence": "**Via the ClawHub CLI** (`npm i -g clawhub`) — installs into `./skills`",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 101,
+                    "column": 4,
+                    "evidence": "- `LEARNINGS.md` — corrections, knowledge gaps, best practices",
+                    "target_path": "assets/LEARNINGS.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 102,
+                    "column": 4,
+                    "evidence": "- `ERRORS.md` — command failures, exceptions",
+                    "target_path": "assets/ERRORS.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 103,
+                    "column": 4,
+                    "evidence": "- `FEATURE_REQUESTS.md` — user-requested capabilities",
+                    "target_path": "assets/FEATURE_REQUESTS.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 111,
+                    "column": 26,
+                    "evidence": "| Behavioral patterns | `SOUL.md` | \"Be concise, avoid disclaimers\" |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 112,
+                    "column": 28,
+                    "evidence": "| Workflow improvements | `AGENTS.md` | \"Spawn sub-agents for long tasks\" |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 113,
+                    "column": 19,
+                    "evidence": "| Tool gotchas | `TOOLS.md` | \"Git push needs auth configured first\" |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 129,
+                    "column": 38,
+                    "evidence": "follow [Install or Upgrade the Hook](references/openclaw-integration.md#install-or-upgrade-the-hook),",
+                    "target_path": "references/openclaw-integration.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 137,
+                    "column": 20,
+                    "evidence": "exists). Internal `HOOK.md` events have no per-tool-call callback, so this",
+                    "target_path": "hooks/openclaw/HOOK.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 140,
+                    "column": 32,
+                    "evidence": "[hook systems and limitations](references/openclaw-integration.md#internal-hook-events).",
+                    "target_path": "references/openclaw-integration.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 144,
+                    "column": 62,
+                    "evidence": "Append an entry using the templates in [assets/LEARNINGS.md](assets/LEARNINGS.md), [assets/ERRORS.md](assets/ERRORS.md), or [assets/FEATURE_REQUESTS.md](assets/",
+                    "target_path": "assets/LEARNINGS.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 144,
+                    "column": 41,
+                    "evidence": "Append an entry using the templates in [assets/LEARNINGS.md](assets/LEARNINGS.md), [assets/ERRORS.md](assets/ERRORS.md), or [assets/FEATURE_REQUESTS.md](assets/",
+                    "target_path": "assets/LEARNINGS.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 144,
+                    "column": 103,
+                    "evidence": "the templates in [assets/LEARNINGS.md](assets/LEARNINGS.md), [assets/ERRORS.md](assets/ERRORS.md), or [assets/FEATURE_REQUESTS.md](assets/FEATURE_REQUESTS.md). ",
+                    "target_path": "assets/ERRORS.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 144,
+                    "column": 85,
+                    "evidence": "nd an entry using the templates in [assets/LEARNINGS.md](assets/LEARNINGS.md), [assets/ERRORS.md](assets/ERRORS.md), or [assets/FEATURE_REQUESTS.md](assets/FEAT",
+                    "target_path": "assets/ERRORS.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 144,
+                    "column": 154,
+                    "evidence": "INGS.md), [assets/ERRORS.md](assets/ERRORS.md), or [assets/FEATURE_REQUESTS.md](assets/FEATURE_REQUESTS.md). Keep the observation, context, suggested action, an",
+                    "target_path": "assets/FEATURE_REQUESTS.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 144,
+                    "column": 126,
+                    "evidence": "s/LEARNINGS.md](assets/LEARNINGS.md), [assets/ERRORS.md](assets/ERRORS.md), or [assets/FEATURE_REQUESTS.md](assets/FEATURE_REQUESTS.md). Keep the observation, c",
+                    "target_path": "assets/FEATURE_REQUESTS.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 144,
+                    "column": 261,
+                    "evidence": ". Keep the observation, context, suggested action, and metadata. See [examples](references/examples.md) for completed entries.",
+                    "target_path": "references/examples.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 200,
+                    "column": 72,
+                    "evidence": "For worked review outcomes and provenance, read [maintenance examples](references/examples.md#maintenance-examples).",
+                    "target_path": "references/examples.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 202,
+                    "column": 38,
+                    "evidence": "[maintenance behavioral evaluations](references/maintenance-evals.md).",
+                    "target_path": "references/maintenance-evals.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 231,
+                    "column": 47,
+                    "evidence": "- `promoted` - Elevated to a workspace file (`SOUL.md`, `TOOLS.md`, `AGENTS.md`)",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 231,
+                    "column": 58,
+                    "evidence": "- `promoted` - Elevated to a workspace file (`SOUL.md`, `TOOLS.md`, `AGENTS.md`)",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 231,
+                    "column": 70,
+                    "evidence": "- `promoted` - Elevated to a workspace file (`SOUL.md`, `TOOLS.md`, `AGENTS.md`)",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 250,
+                    "column": 4,
+                    "evidence": "| `SOUL.md` | Behavioral guidelines, communication style, principles |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 251,
+                    "column": 4,
+                    "evidence": "| `TOOLS.md` | Tool capabilities, usage patterns, integration gotchas |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 252,
+                    "column": 4,
+                    "evidence": "| `AGENTS.md` | Workflows, delegation patterns, automation rules |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 255,
+                    "column": 65,
+                    "evidence": "workspace), promote to that project's own agent file (e.g. its `AGENTS.md`)",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 268,
+                    "column": 17,
+                    "evidence": "> Lock file is `pnpm-lock.yaml`. Must use `pnpm install`.",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 273,
+                    "column": 40,
+                    "evidence": "- Before installing, read this repo's `package.json` `packageManager` field and lockfile. Use the declared manager; if missing or conflicting, consult the build",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 273,
+                    "column": 213,
+                    "evidence": "nflicting, consult the build instructions/maintainer before installing. Source: .learnings/LEARNINGS.md#LRN-20250115-002",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 285,
+                    "column": 9,
+                    "evidence": "Source: .learnings/LEARNINGS.md#LRN-20250116-001 (scope: this repo's current generator/configuration)",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 295,
+                    "column": 14,
+                    "evidence": "**Format**: `area.symptom` — exactly two levels, lowercase, hyphenated",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 307,
+                    "column": 61,
+                    "evidence": "| `net` | Network connectivity | `net.connection-refused`, `net.timeout` |",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 320,
+                    "column": 29,
+                    "evidence": "4. **Generic sweep keys** (`runtime.error`, `runtime.failure`) mean",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 320,
+                    "column": 46,
+                    "evidence": "4. **Generic sweep keys** (`runtime.error`, `runtime.failure`) mean",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 337,
+                    "column": 39,
+                    "evidence": "- Missing knowledge (→ promote to `TOOLS.md` or `SOUL.md`)",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 337,
+                    "column": 53,
+                    "evidence": "- Missing knowledge (→ promote to `TOOLS.md` or `SOUL.md`)",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 338,
+                    "column": 36,
+                    "evidence": "- Missing automation (→ add to `AGENTS.md`)",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 348,
+                    "column": 10,
+                    "evidence": "1. Read `simplify_and_harden.learning_loop.candidates` from the task summary.",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 350,
+                    "column": 12,
+                    "evidence": "3. Search `.learnings/LEARNINGS.md` for an existing entry with that key:",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 351,
+                    "column": 44,
+                    "evidence": "- `grep -n \"Pattern-Key: <pattern_key>\" .learnings/LEARNINGS.md`",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "plain_path"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 370,
+                    "column": 21,
+                    "evidence": "Promotion targets: `SOUL.md`, `TOOLS.md`, or `AGENTS.md` (workspace), or the",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 370,
+                    "column": 32,
+                    "evidence": "Promotion targets: `SOUL.md`, `TOOLS.md`, or `AGENTS.md` (workspace), or the",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 370,
+                    "column": 47,
+                    "evidence": "Promotion targets: `SOUL.md`, `TOOLS.md`, or `AGENTS.md` (workspace), or the",
+                    "target_path": null,
+                    "status": "missing",
+                    "disposition": "partial",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 487,
+                    "column": 7,
+                    "evidence": "Read `CHANGELOG.md` before upgrading — it carries per-version notes, and",
+                    "target_path": "CHANGELOG.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 489,
+                    "column": 41,
+                    "evidence": "To disable or remove the skill, follow `references/uninstall.md`:",
+                    "target_path": "references/uninstall.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "quoted_or_code"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 496,
+                    "column": 78,
+                    "evidence": "When a learning may justify a reusable skill, use [assets/SKILL-TEMPLATE.md](assets/SKILL-TEMPLATE.md). Extracting is optional, never a dependency of maintenanc",
+                    "target_path": "assets/SKILL-TEMPLATE.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "markdown_link"
+                  },
+                  {
+                    "source_path": "SKILL.md",
+                    "line": 496,
+                    "column": 52,
+                    "evidence": "When a learning may justify a reusable skill, use [assets/SKILL-TEMPLATE.md](assets/SKILL-TEMPLATE.md). Extracting is optional, never a dependency of maintenanc",
+                    "target_path": "assets/SKILL-TEMPLATE.md",
+                    "status": "resolved",
+                    "disposition": "analyzed",
+                    "reference_kind": "plain_path"
+                  }
+                ],
+                "limitations": [
+                  "Analyzer static_patterns_tool_misuse status: degraded."
+                ],
+                "findings_before_filtering": 18,
+                "findings_after_filtering": 18
+              }
+            }
+          }
+        },
+        "signature": {
+          "status": "unsigned"
+        }
+      }
+    }
+  }
+}
